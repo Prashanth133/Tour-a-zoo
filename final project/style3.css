@@ -1,0 +1,112 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body
+{
+	height: 100vh;
+	width: 100%;
+	background:linear-gradient(rgba(202, 54, 54,0.6), rgba(87, 19, 19, 0.5)), url(images/contact-bg.jpg);
+	background-size: cover;
+
+} 
+header {
+	justify-content: space-evenly;
+	display: flex;
+	width: 100%;
+	height: 10vh;
+	align-items: center;
+	background-color: rgba(20, 54, 54, 0.8);
+	
+}
+
+.logo-container,
+.nav-links{
+	display: flex;
+}
+
+.logo-container {
+	flex: 1;
+    height: 75px;
+	margin-bottom: 15px;
+
+}
+a:hover
+{
+	color: #bccc9a ;
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
+
+.logo {
+	font-weight: 600;
+	font-size: 23px;
+	margin: 5px;
+}
+nav {
+	flex: 2;
+}
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+	cursor: pointer;
+	
+}
+.nav-link {
+	color: #fff;
+	font-size: 22px;
+	text-decoration: none;
+	bottom: 1px;
+}
+.contact-form
+{
+    width: 85%;
+    max-width: 600px;
+   background: #f1f1f1;
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   padding: 30px 40px;
+   box-sizing: border-box;
+   border-radius: 8px;
+   text-align: center;
+   box-shadow: 0 0 20px #000000b3;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+}
+.textb
+{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+}
+.textb label
+{
+    display: block;
+    text-align: left;
+    color: hsl(80, 51%, 18%);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.textb input,.textb textarea
+{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.btn
+{
+    display: block;
+    background-color: rgba(15, 77, 15, 0.533);
+    cursor: pointer;
+}
